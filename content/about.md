@@ -1,28 +1,24 @@
 +++
-title = "About"
-description = "Hugo, the world’s fastest framework for building websites"
+title = "Sekilas Kisah"
+description = "About Mahasemesta"
 date = "2019-02-28"
 hidden = true
 layout = "page"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Mahasemesta adalah sebuah wadah bagi saya untuk menuliskan semua unek-unek tentang alam semesta ini, didapat secara subjektif dari proses perjalanan kehidupan. Semua artikel dan produk di blog ini sangat subjektif dan merupakan suatu hal yang tidak boleh dijadikan sebagai acuan apapun.
 
-Hugo makes use of a variety of open source projects including:
+Banyak hal di alam semesta ini yang masih menjadi misteri, barangkali misteri itu masih menjadi misteri lantaran logika kita yang masih terhalang oleh dogma-dogma religi yang sangat lekat dan pekat. Padahal inti dasarnya adalah bahwa apapun misteri itu, jika dia memasuki alam fisik dimensi tiga ini, maka dia wajib mematuhi hukum di dimensi ini. Terbelahnya lautan di era nabi musa contohnya. Fenomena tersebut seakan menjadi misteri dan keajaiban, padahal apapun itu bentuk keajaibannya, pasti ada penjelasan fisika-nya.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Mahasemesta juga menyediakan produk berupa Oracle Card yang dapat digunakan untuk keperluan divinition dan hipnoterapi yang khusus pada bidang Past Life Regression, dimana client dapat merecall semua memori di waktu lampau bahkan di kehidupan yang jauh sebelum kehidupan ini.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+{{< raw >}}
+<p style=text-align:center;margin-bottom:0;>
+    Mahasemesta dapat dikontak di :
+</p>
+{{< /raw >}}
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+# [Whatsapp](https://wa.me/6285171711447)  [Instagram](https://instagram.com/maha.semesta)  [Email](mailto:fikriazh@gmail.com).
 
 
 

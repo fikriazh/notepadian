@@ -1,6 +1,6 @@
 +++
 weight = "6"
-title = "Oracle"
+title = "Oracle Deck"
 date = 2022-08-22
 description = "Mahasemesta Deck"
 summary = "Hasil dari proses perjalanan panjang yang terangkum menjadi 36 kartu oracle."

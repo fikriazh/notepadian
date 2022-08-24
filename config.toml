@@ -9,6 +9,9 @@ enableRobotsTXT = true
 # Google Analytics
 #googleAnalytics = "UA-123-45"
 
+[permalinks]
+  'post' = '/:title/'
+
 [markup.goldmark.renderer]
 unsafe = true
 
