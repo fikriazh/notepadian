@@ -15,13 +15,14 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-html[data-theme='dark'] img {
+/* html[data-theme='dark'] img { */
+img {    
     opacity: .65;
     transition: opacity .5s ease-in-out;
+    width: 80vw;
     max-width: 80vw;
     height: auto;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
     display:block;
     margin: 1rem auto;
 }
