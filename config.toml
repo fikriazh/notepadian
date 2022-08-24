@@ -3,8 +3,7 @@ title = "Mahasemesta"
 copyright = "©2022 Mahasemesta"
 
 enableRobotsTXT = true
-summaryLength = 15
-
+# summaryLength = 10
 # paginate = 5
 
 # Google Analytics
