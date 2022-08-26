@@ -3,7 +3,6 @@ title = "Simulasi"
 date = "2022-03-02"
 description = "Permainan Sang Pencipta"
 summary = "Sang Pencipta semesta sedang duduk mengenakan alat VR-nya dan tersinkron dengan jasad kita, asyik bermain permainan ciptannya."
-cover = "2 galaxy"
 +++
 
 Kode angka yang semesta terus kirim tanpa henti, yang tentunya hanya pada saat kita tidak mengharapkan itu, adalah satu bukti subjektif yang menandakan bahwa ada sesuatu di balik tirai tak kasat mata, yang mengatur tatanan semesta ini. Namun, alih-alih bersandar pada dogma yang hanya menuntut keyakinan tanpa intervensi logis, Aku akan mengajak untuk menelusuri seluk beluk semesta ini dan cara sang programer melakukannya untuk karyanya, yaitu semua dari kita dan seluruh sistem semesta ini.

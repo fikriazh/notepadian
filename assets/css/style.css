@@ -296,21 +296,3 @@ nav ul li a:focus {
       display: none;
   }
 }
-
-.thumbnail {
-  display:flex;
-  justify-content:flex-start;
-  flex-wrap: nowrap;
-  align-items: center;
-  gap : 10px;
-  margin-top: 10px;
-}
-
-.thumbnail img {
-  max-width: 50px;
-  height: 60px;
-  margin: 0;
-  object-fit: cover;
-  border-radius: 5px;
-  filter: grayscale(70%);
-}
