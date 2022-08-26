@@ -14,5 +14,3 @@ fields:
 - type: textarea
   name: summary
   label: summary
-pages:
-- content/post/sagittarius.md
