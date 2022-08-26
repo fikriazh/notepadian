@@ -9,7 +9,6 @@
 <section class="article-header" {{- if $justify -}}style="text-align: justify;" {{- end -}}>
     <h1>{{- .Title | safeHTML -}}</h1>    
 </section>
-{{- partial "article-labels.html" . -}}
 
 <article class="markdown-body">
     {{- .Content -}}

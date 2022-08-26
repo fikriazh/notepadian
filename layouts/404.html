@@ -1,5 +1,47 @@
-{{- define "main" -}}
-<article class="markdown-body">
-  <h3 id="title">We find nothing . . .</h3>
-</article>
-{{- end -}}
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+{{- partial "head.html" . -}}
+<meta http-equiv='refresh' content='7; URL={{- `/` | relURL -}}'>
+
+<style>
+  .lost {
+    text-align: center;
+    margin: 35vh auto;
+  }
+  #timer_div {
+    font-size:xx-large;
+  }
+</style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <section id="content">
+
+          <article class="lost">
+            <h3 id="title">Sorry, we find nothing here</h3>
+            We'll back you home in
+            <p id="timer_div"></p>
+          </article>
+
+        </section>
+    </div>
+
+    <script>
+      var seconds_left = 6;
+      var interval = setInterval(function() {
+          document.getElementById('timer_div').innerHTML = --seconds_left;
+
+          if (seconds_left <= 0)
+          {
+            document.getElementById('timer_div').innerHTML = "Let's GO!";
+            clearInterval(interval);
+          }
+      }, 1000);
+    </script>
+
+</body>
+
+</html>

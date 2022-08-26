@@ -28,8 +28,6 @@ mediaType = "text/toml"
 
 [params]
 style = "dark"
-#logo = ""
-#slogan = ""
 keywords = "mahasemesta, blog, semesta, oracle"
 description = "Personal blog about my universe"
 author = "Fikri Azhar Novianto"

@@ -112,7 +112,7 @@ a:hover {
 .site-name {
     display: inline-block;
     font-weight: 600;
-    font-size: 21px;
+    font-size: 25px;
 
     text-decoration: underline;
     text-decoration-color: var(--link-underline);
