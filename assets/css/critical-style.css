@@ -99,7 +99,7 @@ a:hover {
 }
 
 .header {
-    margin-top: 20px;
+    margin: 20px 0;
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
