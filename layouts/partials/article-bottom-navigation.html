@@ -1,16 +1,11 @@
 {{- if or .PrevInSection .NextInSection -}}
-<section class="article-navigation">
+<section {{if not .NextInSection}}style="justify-content:flex-end;"{{end}} class="article-navigation">
     {{- with .NextInSection -}}
-    <p><a class="link" href="{{- .RelPermalink -}}"><span>< </span>{{- .Title | safeHTML -}}</a>
-    {{- end -}}
-
-    {{- if and .PrevInSection .NextInSection -}}
-    <span> | </span>
+    <a class="link" href="{{- .RelPermalink -}}"><span>< </span>{{- .Title | safeHTML -}}</a>
     {{- end -}}
 
     {{- with .PrevInSection -}}
     <a class="link" href="{{- .RelPermalink -}}">{{- .Title | safeHTML -}}<span> ></span></a class="link">
-    </p>
     {{- end -}}
 </section>
 {{- end -}}

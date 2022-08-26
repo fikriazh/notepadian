@@ -7,13 +7,16 @@
     <li class="item">
         <a class="note" href="{{- .RelPermalink -}}">
             <p class="note-title">{{- .Title | safeHTML -}}</p>
-        </a>   
-        <span class="note-date">{{- .Params.description -}}</span>                
-                          
-            {{- if .Summary -}}<p class="note-content">{{- .Summary | plainify | safeHTML -}}<a class="article-tag"><span class="hashtag">{{- .Date.Format "2 Jan '06" -}}</span></a> </p>{{- end -}}       
-            
-            
+        </a>
+        <span class="note-date">{{- .Params.description -}}</span>
         
+        <div class="thumbnail">            
+            <img src="/img/{{ .Params.cover }}.png"/>            
+            {{- if .Summary -}}<p class="note-content">{{- .Summary | plainify | safeHTML -}}<a class="article-tag"><span class="hashtag">{{- .Date.Format "2 Jan 06" -}}</span></a> </p>{{- end -}}       
+        </div>
+
+
+
     </li>
     {{- end -}}
     {{- end -}}

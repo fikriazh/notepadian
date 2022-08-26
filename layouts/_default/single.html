@@ -8,8 +8,8 @@
 <section class="article-header" {{- if $justify -}}style="text-align: justify;" {{- end -}}>
 
     <h1>{{- .Title | safeHTML -}}</h1>
-    <span class="hashtag">{{- .Params.description -}}</span>
-    <p class="article-date">Published on&nbsp{{- .Date.Format "Friday, 2 Jan 2006" -}}</p>
+    <span class="markdown-body">{{- .Params.description -}}</span>
+    <p class="article-date">{{- .Date.Format "Friday, 2 January 2006" -}}</p>
     
 </section>
 

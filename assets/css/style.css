@@ -216,6 +216,8 @@ table {
 .article-navigation {
   margin-top: 25px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .article-navigation p {
@@ -293,4 +295,22 @@ nav ul li a:focus {
   .toc {
       display: none;
   }
+}
+
+.thumbnail {
+  display:flex;
+  justify-content:flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap : 10px;
+  margin-top: 10px;
+}
+
+.thumbnail img {
+  max-width: 50px;
+  height: 60px;
+  margin: 0;
+  object-fit: cover;
+  border-radius: 5px;
+  filter: grayscale(70%);
 }
