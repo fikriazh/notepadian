@@ -4,7 +4,7 @@ copyright = "©2022 Mahasemesta"
 
 enableRobotsTXT = true
 # summaryLength = 10
-# paginate = 5
+paginate = 5
 
 # Google Analytics
 #googleAnalytics = "UA-123-45"

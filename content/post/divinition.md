@@ -1,5 +1,4 @@
 +++
-weight = "5"
 title = "Divinition"
 date = 2022-08-22
 description = "Media Transmisi"

@@ -1,5 +1,4 @@
 +++
-weight = "2"
 title = "Simulasi"
 date = "2022-03-02"
 description = "Permainan Sang Pencipta"

@@ -1,5 +1,4 @@
 +++
-weight = "4"
 title = "Jiwa"
 date = 2022-08-18
 description = "Tempatnya Menjelma"

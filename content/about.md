@@ -18,7 +18,7 @@ Mahasemesta juga menyediakan produk berupa Oracle Card yang dapat digunakan untu
 </p>
 {{< /raw >}}
 
-# [Whatsapp](https://wa.me/6285171711447)  [Instagram](https://instagram.com/maha.semesta)  [Email](mailto:fikriazh@gmail.com).
+# [Whatsapp](https://wa.me/6285171711447) / [Instagram](https://instagram.com/maha.semesta)
 
 
 

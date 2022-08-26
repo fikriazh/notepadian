@@ -1,5 +1,4 @@
 +++
-weight = "3"
 title = "Astrologi"
 date = 2022-03-03
 description = "Konfigurasi Energi"
