@@ -314,6 +314,7 @@ ul.archive-list li {
 }
 
 .pagination ul li a.active {
+    border-radius: 10px;
     background-color: var(--color-primary);
     color: var(--block-background-color);
 }

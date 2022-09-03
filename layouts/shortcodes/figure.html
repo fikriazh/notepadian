@@ -4,7 +4,7 @@
         <img class="img" src="{{ $src }}" 
          {{- if or (.Get "alt") (.Get "caption") }} 
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
-         {{- end -}}/>
+         {{- end -}} loading="lazy" />
 
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
         <span class="caption">
