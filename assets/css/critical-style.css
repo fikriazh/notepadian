@@ -99,7 +99,7 @@ a:hover {
 }
 
 .header {
-    margin: 20px 0;
+    margin-top: 20px;
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
@@ -157,7 +157,6 @@ html[data-theme='dark'] .dark-hidden{
 }
 
 .note-list {
-    margin-top: -25px;
     padding: 0;
     list-style: none
 }
@@ -317,4 +316,10 @@ ul.archive-list li {
     border-radius: 10px;
     background-color: var(--color-primary);
     color: var(--block-background-color);
+}
+
+.slogan {
+    text-align: center;
+    margin: 15px 0;
+    font-style: italic;
 }
