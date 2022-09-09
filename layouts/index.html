@@ -1,6 +1,6 @@
 {{- define "main" -}}
 
-<p class="slogan">"... here, i write all about universe told me ..."</p>
+<p class="slogan">" . . . merely journal of my weird life . . . "</p>
 
 {{- $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) -}}
 {{- partial "note-list.html" $paginator -}}

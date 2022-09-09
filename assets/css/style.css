@@ -217,7 +217,8 @@ table {
   margin-top: 25px;
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
 }
 
 .article-navigation p {

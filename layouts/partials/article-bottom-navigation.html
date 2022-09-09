@@ -1,5 +1,5 @@
 {{- if or .PrevInSection .NextInSection -}}
-<section {{if not .NextInSection}}style="justify-content:flex-end;"{{end}} class="article-navigation">
+<section class="article-navigation">
     {{- with .NextInSection -}}
     <a class="link" href="{{- .RelPermalink -}}"><span>< </span>{{- .Title | safeHTML -}}</a>
     {{- end -}}

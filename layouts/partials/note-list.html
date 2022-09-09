@@ -9,7 +9,11 @@
             <p class="note-title">{{- .Title | safeHTML -}}</p>
         </a>
         <span class="note-date">{{- .Params.description -}}</span>        
-        {{- if .Summary -}}<p class="note-content">{{- .Summary | plainify | safeHTML -}}<a class="article-tag"><span class="hashtag">{{- .Date.Format "2 Jan 06" -}}</span></a> </p>{{- end -}}       
+        {{- if .Summary -}}
+        <p class="note-content">{{- .Summary | plainify | safeHTML -}}
+        <br><a class="article-tag"><span class="hashtag">{{- .Date.Format "2 Jan 06" -}}</span></a>
+        </p>
+        {{- end -}}       
 
     </li>
     {{- end -}}
