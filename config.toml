@@ -4,10 +4,13 @@ copyright = "©2022 Mahasemesta"
 
 enableRobotsTXT = true
 # summaryLength = 10
-paginate = 3
+paginate = 5
 
 # Google Analytics
 #googleAnalytics = "UA-123-45"
+
+[taxonomies]
+  tag = 'tags'
 
 [permalinks]
   'post' = '/:title/'

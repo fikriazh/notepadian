@@ -8,10 +8,15 @@
         <a class="note" href="{{- .RelPermalink -}}">
             <p class="note-title">{{- .Title | safeHTML -}}</p>
         </a>
-        <span class="note-date">{{- .Params.description -}}</span>        
+
+        <div class="subtitle">
+        <span class="note-date">{{- .Params.description -}}</span>
+        <span class="note-date">{{- .Date.Format "2 Jan 06" -}}</span>
+        </div>
+
         {{- if .Summary -}}
-        <p class="note-content">{{- .Summary | plainify | safeHTML -}}
-        <br><a class="article-tag"><span class="hashtag">{{- .Date.Format "2 Jan 06" -}}</span></a>
+        <p class="note-content">{{- .Summary | plainify | safeHTML -}}.
+        <br><a class="article-tag">#{{ .Params.tag }}</a>
         </p>
         {{- end -}}       
 

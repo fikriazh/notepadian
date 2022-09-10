@@ -297,3 +297,12 @@ nav ul li a:focus {
       display: none;
   }
 }
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+iframe {
+  border-radius: 10px;
+}

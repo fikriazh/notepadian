@@ -2,7 +2,8 @@
 title = "Oracle Deck"
 date = 2022-08-25
 description = "Mahasemesta Deck"
-summary = "Hasil dari proses perenungan dan perjalanan spiritual panjang yang terangkum menjadi 36 kartu oracle."
+summary = "Hasil dari proses perenungan dan perjalanan spiritual panjang yang terangkum menjadi 36 kartu oracle"
+tag = "semesta"
 +++
 
 Mahasemesta telah merampungkan sebuah karya berupa oracle deck dengan nama Mahasemesta Divinition. Karya ini merupakan hasil dari serangkaian perjalanan dalam menempuh pendidikan dengan alam semesta, sebuah proses perubahan yang berjalan sangat perlahan untuk memahami semua hal, yang masih bisa dijamah oleh akal.

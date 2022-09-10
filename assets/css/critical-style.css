@@ -90,7 +90,7 @@ a:hover {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr min(50ch, calc(100% - 64px)) 1fr;
+    grid-template-columns: 1fr min(60ch, calc(100% - 64px)) 1fr;
     grid-column-gap: 32px;
 }
 
@@ -99,14 +99,13 @@ a:hover {
 }
 
 .header {
-    margin-top: 40px;
+    margin: 15px;
     display: -webkit-flex;
     display: flex;
-    flex-wrap: wrap;
     text-align: initial;
     padding: 15px 0 15px 0;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .site-name {
@@ -114,7 +113,7 @@ a:hover {
     font-weight: 600;
     font-size: 25px;
 
-    text-decoration: none;
+    text-decoration: underline;
     text-decoration-color: var(--link-underline);
     text-decoration-thickness: 0.15rem;
 }
@@ -159,7 +158,7 @@ html[data-theme='dark'] .dark-hidden{
 .note-list {
     padding: 0;
     list-style: none;
-    text-align:center;
+    text-align: left;
 }
 
 .note-list .item {
@@ -187,14 +186,12 @@ html[data-theme='dark'] .dark-hidden{
     margin-top: 4px;
     text-align: justify;
     text-justify: inter-word;
-    text-align: center;
 }
 
 .article-tag,.article-category {
     display: inline-block;
     font-size: 15px;
     line-height: 1;
-    padding: 4px 6px;
     margin: 2px 3px 2px 0;
     white-space: nowrap;
     border-radius: 3px
@@ -211,7 +208,7 @@ html[data-theme='dark'] .dark-hidden{
 
 .footer {
     font-size: 13px;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .footer-wrap {
@@ -280,8 +277,7 @@ ul.archive-list li {
 }
 
 .markdown-body p {
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin: 15px 0;
     text-align: justify;
 }
 

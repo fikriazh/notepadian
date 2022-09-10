@@ -1,14 +1,14 @@
 +++
-title = "114"
-date = "2022-02-20"
-description = "Komunikasi Matriks"
-summary = "Jika semesta ini acak, lalu kenapa pola-pola angka tersebut terus muncul secara acak namun berpola rapih"
-tag = "semesta"
+title = "Kutai Lama"
+date = "2022-06-10"
+description = "Beauty of Eastern Borneo"
+summary = "Lokasi sumur pengeboran South Kutai Lama, bersama semua romansa, kisah dan hiruk pikuknya"
+tag = "job"
 +++
 
-Pola komunikasi ini sudah terjadi selama dua tahun ini, semenjak momen awakening terjadi. Pada mulanya, Aku sering menyadari dan berfokus pada angka-angka tertentu yang sering kali muncul di momen yang sangat random. Anehnya, semakin Aku tidak peduli, maka angka-angka tersebut akan semakin sering muncul. Namun, di saat Aku menginginkan angka itu untuk muncul, malahan tidak ada sama sekali yang muncul.
+Kutai Lama, sebuah lokasi pengeboran yang dekat dengan sungai kutai lama.
 
-{{< figure src="/img/1 tree.png" caption="Tree of Universe : Here, all of our collected memories is stored, eternally" >}}
+{{< youtube XqMyCezXKGg >}}
 
 Pada mulanya memang banyak sekali pola yang muncul. Aku ingat pertama kali adalah kode "1234" dan "1111", dimana angka kode tersebut sering Aku jumpai saat tak sengaja melihat jam digital di dinding kamar ataupun di jam tangan. Aku pun menelusuri mengenai makna dari kenampakan kode angka tersebut. Mayoritas jawaban adalah itu merupakan angka malaikat (Angel Number).
 
