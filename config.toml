@@ -39,8 +39,8 @@ author = "Fikri Azhar Novianto"
 css = ["css/fonts.css"]
 
 [[params.nav.custom]]
-title = "Oracle"
-url = "/oracle/"
+title = "On Duty"
+url = "/onduty/"
 
 [[params.nav.custom]]
 title = "About"

@@ -2,8 +2,8 @@
 title = "Kutai Lama"
 date = "2022-06-10"
 description = "Beauty of Eastern Borneo"
-summary = "Lokasi sumur pengeboran South Kutai Lama, bersama semua romansa, kisah dan hiruk pikuknya"
-tag = "job"
+hidden = true
+layout = "onduty"
 +++
 
 Kutai Lama, sebuah lokasi pengeboran yang dekat dengan sungai kutai lama.
