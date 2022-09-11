@@ -2,8 +2,7 @@
 title = "Kutai Lama"
 date = "2022-06-10"
 description = "Beauty of Eastern Borneo"
-hidden = true
-layout = "onduty"
+summary = "Keindahan alam hutan borneo di Kutai Lama (Kalimantan Timur), bekerja dan healing bersama alam dan eksploitasinya"
 +++
 
 Kutai Lama, sebuah lokasi pengeboran yang dekat dengan sungai kutai lama.
