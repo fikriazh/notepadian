@@ -1,6 +1,5 @@
-baseURL = "https://semestaku.my.id/"
-title = "Mahasemesta"
-copyright = "©2022 Mahasemesta"
+baseURL = "https://fikriazh.my.id/"
+title = "Fikri's Journey"
 
 enableRobotsTXT = true
 # summaryLength = 10

@@ -2,4 +2,4 @@
 title = "Blog"
 +++
 
-test
+Pieces of Semesta's clues given to me
