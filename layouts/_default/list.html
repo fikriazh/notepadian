@@ -1,0 +1,32 @@
+{{- define "main" -}}
+{{- $paginator := .Paginator -}}
+
+<section class="article-header">
+
+    <h1>{{- .Title | safeHTML -}}</h1>
+    <span style="text-align:center">{{- .Content -}}</span>
+    
+</section>
+
+{{- range .Pages -}}
+<ul class="note-list">
+    <li class="item">
+
+        <div>
+            <a class="note" href="{{- .RelPermalink -}}">
+                <p class="note-title">{{- .Title | safeHTML -}}</p>
+            </a>            
+            <span class="note-date">{{- .Params.location -}}</span>
+        </div>
+
+        {{- if .Summary -}}
+        <p class="note-content">{{- .Summary | plainify | safeHTML -}}</p>
+        {{- end -}}
+        
+        <span class="article-date">{{- .Params.range -}}</span>
+
+    </li>
+</ul>
+{{- end -}}
+
+{{- end -}}

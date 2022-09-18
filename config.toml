@@ -9,25 +9,11 @@ paginate = 5
 # Google Analytics
 #googleAnalytics = "UA-123-45"
 
-[taxonomies]
-  tag = 'tags'
-
 [permalinks]
   'post' = '/:title/'
 
 [markup.goldmark.renderer]
 unsafe = true
-
-[mediaTypes]
-[mediaTypes."text/toml"]
-suffixes = ["toml"]
-
-[outputFormats]
-[outputFormats.TOML]
-mediaType = "text/toml"
-
-[outputs]
-  home = ["HTML", "TOML"]
 
 [params]
 style = "dark"
