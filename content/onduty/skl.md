@@ -2,7 +2,7 @@
 title = "SKL-1144"
 location = "Kutai Lama - Eastern Borneo"
 date = "2022-08-20"
-summary = "Jika semesta ini acak, lalu kenapa pola-pola angka tersebut terus muncul secara acak namun berpola rapih"
+summary = "Project percobaan menggunakan sistem single monobore (casing tubing 3.5) diadopsi dari sistem PHSS. Sumur mengalir setelah dilakukan swab selama 2 hari, menggunakan Rig PDSI D700"
 range = "15 Aug - 20 Sep '22"
 +++
 

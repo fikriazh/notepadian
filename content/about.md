@@ -1,5 +1,5 @@
 +++
-title = "Sekilas Kisah"
+title = "Sekilas Langkah"
 description = "About Mahasemesta"
 date = "2019-02-28"
 hidden = true
@@ -10,4 +10,6 @@ Mahasemesta adalah sebuah wadah bagi saya untuk menuliskan semua unek-unek tenta
 
 Banyak hal di alam semesta ini yang masih menjadi misteri, barangkali misteri itu masih menjadi misteri lantaran logika kita yang masih terhalang oleh dogma-dogma religi yang sangat lekat dan pekat. Padahal inti dasarnya adalah bahwa apapun misteri itu, jika dia memasuki alam fisik dimensi tiga ini, maka dia wajib mematuhi hukum di dimensi ini. Terbelahnya lautan di era nabi musa contohnya. Fenomena tersebut seakan menjadi misteri dan keajaiban, padahal apapun itu bentuk keajaibannya, pasti ada penjelasan fisika-nya.
 
-Mahasemesta juga menyediakan produk berupa Oracle Card yang dapat digunakan untuk keperluan divinition dan hipnoterapi yang khusus pada bidang Past Life Regression, dimana client dapat merecall semua memori di waktu lampau bahkan di kehidupan yang jauh sebelum kehidupan ini.
+{{< figure src="/img/about.jpg" caption="It's me in front of Rig PDSI D700 at Development Well SKL-1144 (South Kutai Lama - Eastern Borneo)" >}}
+
+Di blog ini, Saya juga menuangkan beberapa cerita saat on duty di lokasi pengeboran sebagai Drilling Fluid Engineer. Semua catatan on duty ini diharapkan dapat menjadi semacam backup cerita kehidupan selama di lokasi.
