@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 html {
     font-family: -system-ui,-apple-system,BlinkMacSystemFont,helvetica neue,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
     font-size: 17px;
@@ -15,7 +17,6 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-/* html[data-theme='dark'] img { */
 img {    
     filter: brightness(1.2);
     max-width: 100%;

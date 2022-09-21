@@ -8,7 +8,7 @@ tag = "semesta"
 
 Sang buah hati pun terlahir dari seorang wanita yang saat itu sudah kunikahi selama 3 tahun. Penantian untuk menimang sang buah hati pun sempat terhalang oleh gugurnya kesempatan pertama, dulu. Tapi memang semesta selalu punya alasan yang kuat mengapa pada saat itu belum diperkenankan untuk mendapatkan buah hati.
 
-Akasha Mahasemesta, terlahir dan menghirup nafas pertamanya pada 16 Mei 2020 (23 Ramadhan 1441) pukul 18:18 WIB (bertepatan sesaat setelah adzan maghrib dan buka puasa) di Rumah Bersalin Ibu dan Anak Sadewa (Sleman - Yogyakarta), terlahir dengan normal spontan dan semuanya berjalan sempurna dan sehat.
+Akasha Mahasemesta, terlahir dan menghirup nafas pertamanya pada hari Sabtu Pahing, 16 Mei 2020 (23 Ramadhan 1441) pukul 18:18 WIB (bertepatan sesaat setelah adzan maghrib dan buka puasa) di Rumah Bersalin Ibu dan Anak Sadewa (Sleman - Yogyakarta), terlahir dengan normal spontan dan semuanya berjalan sempurna dan sehat.
 
 {{< figure src="/img/7 akasha.JPG" caption="Akasha Mahasemesta : The Keeper of Universe's Eternity" >}}
 

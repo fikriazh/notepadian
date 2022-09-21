@@ -1,45 +1,14 @@
 <meta charset="utf-8">
-{{- hugo.Generator -}}
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark">
-<meta name="supported-color-schemes" content="dark">
-
-<meta name="keywords" content={{ .Site.Params.keywords }}>
-<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
-<meta name="author" content={{ .Site.Params.author }}>
-<meta http-equiv="content-language" content="en,id">
-
-{{ $paginator := .Paginate (where .Site.RegularPages ".Params.post" "!=" false) }}
-{{ if .IsHome }}
-{{ if eq $paginator.PageNumber 1 }}
-<link rel="canonical" href="{{ .Permalink }}">
-{{ else }}
-<link rel="canonical" href="{{ .Permalink }}page/{{ $paginator.PageNumber }}/">
-{{ end }}
-{{ else }}
-<link rel="canonical" href="{{ .Permalink }}">
-{{ end }}
-
 <link rel="icon" href="/favicon.ico">
-
-{{- define "title" -}}
-    {{- $title := .Title -}}
-    {{- if and (ne $title "") (ne $title .Site.Title) -}}
-        <title>{{- $title | safeHTML -}} &nbsp;&ndash;&nbsp; {{- .Site.Title | safeHTML -}}</title>
-    {{- else -}}
-        {{- $slogan := .Site.Params.slogan -}}
-        <title>{{- .Site.Title | safeHTML -}}{{- if and (isset .Site.Params "slogan") (ne $slogan "") -}} &nbsp;&ndash;&nbsp;
-            {{- $slogan | safeHTML -}}{{- end -}}</title>
-    {{- end -}}
-{{- end -}}
-
-{{- block "title" . -}}{{- end -}}
-
+<title>{{ .Title }}</title>
 
 <!-- Style -->
 <link rel="preconnect" href="https://cdn.jsdelivr.net/" crossorigin>
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
 <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+
 {{- if not .Page.IsHome -}}
 {{- end -}}
 {{- $coreCSS := resources.Get "css/style.css" -}}
