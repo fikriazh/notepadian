@@ -1,0 +1,16 @@
+---
+label: On Duty
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: location
+  label: location
+- type: textarea
+  name: summary
+  label: summary
+- type: text
+  name: range
+  label: range
