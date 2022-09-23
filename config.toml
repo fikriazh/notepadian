@@ -1,4 +1,4 @@
-baseURL = "https://fikriazh.my.id/"
+baseURL = "https://semestaku.my.id/"
 title = "Mahasemesta"
 
 [permalinks]
@@ -11,11 +11,6 @@ unsafe = true
 keywords = "mahasemesta, blog, semesta, oracle"
 description = "Personal blog about my universe"
 author = "Fikri Azhar Novianto"
-
-stylesheets = ["critical-styles.css", "font.css", "style.css"]
-
-[params.assets]
-css = ["css/fonts.css"]
 
 [[params.nav.custom]]
 title = "On Duty"
