@@ -9,16 +9,24 @@ sections:
   label: Onduty
   create: all
   match: "**/*"
+  exclude: _index.md
+  templates:
+  - on-duty
 - type: directory
   path: content/blog
   label: Blog
   create: all
   match: "**/*"
+  exclude: _index.md
+  templates:
+  - blog
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
+  templates:
+  - page
 upload_dir: static/img
 public_path: "/uploads"
 front_matter_path: ''
