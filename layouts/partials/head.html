@@ -4,5 +4,5 @@
 <link rel="icon" href="/favicon.ico">
 <title>{{ .Title }}</title>
 
-{{ $css := resources.Match "**.css" | resources.Concat "mains.css" | resources.Minify | resources.Fingerprint "sha512" }}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" media="all">
+{{ $css := resources.Match "**.css" | resources.Concat "mains.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" media="all">
