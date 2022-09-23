@@ -1,7 +1,6 @@
 +++
 title = "Kutai Lama"
 date = "2022-06-10"
-description = "Beauty of Eastern Borneo"
 summary = "Keindahan alam hutan borneo di Kutai Lama (Kalimantan Timur), bekerja dan healing bersama alam dan eksploitasinya"
 +++
 

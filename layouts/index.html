@@ -4,22 +4,7 @@
 <p class="slogan">" . . . {{ .Params.subtitle }} . . . "</p>
 
 {{- range (where .Site.RegularPages "Section" "=" "blog") -}}
-<ul class="note-list">
-    <li class="item">
-
-        <div class="subtitle">
-            <a class="note" href="{{- .RelPermalink -}}">
-                <p class="note-title">{{- .Title | safeHTML -}}</p>
-            </a>
-            <span class="note-date">{{- .Date.Format "2 Jan 06" -}}</span>
-        </div>
-
-        {{- if .Summary -}}
-        <p class="note-content">{{- .Summary | plainify | safeHTML -}}</p>
-        {{- end -}}       
-
-    </li>
-</ul>
+    {{ partial "list" . }}
 {{- end -}}
 
 {{- end -}}

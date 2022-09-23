@@ -1,7 +1,6 @@
 +++
 title = "Astrologi"
 date = 2022-03-03
-description = "Konfigurasi Energi"
 summary = "Sususan planet dan peredarannya memiliki signature energi yang unik pada tiap waktu yang menyiratkan karakter kita"
 +++
 

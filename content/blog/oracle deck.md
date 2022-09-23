@@ -1,7 +1,6 @@
 +++
 title = "Oracle Deck"
 date = 2022-08-25
-description = "Mahasemesta Deck"
 summary = "Hasil dari proses perenungan dan perjalanan spiritual panjang yang terangkum menjadi 36 kartu oracle"
 +++
 

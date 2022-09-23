@@ -1,8 +1,15 @@
 <section id="header" class="header">
+
     <div class="header-left"><a href="{{- `/` | relURL -}}">        
         <p class="site-name">{{- .Site.Title -}}</p></a>
     </div>
+
     <div class="header-right">
-        {{- partial "navigation-items.html" .Site.Params.nav -}}
+        <div class="nav">
+            {{- range .Site.Params.menu -}}
+                <a class="nav-item" href="{{- .url -}}">{{- .title -}}</a>
+            {{- end -}}
+        </div>
     </div>
+    
 </section>

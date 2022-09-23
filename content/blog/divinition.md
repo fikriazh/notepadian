@@ -1,7 +1,6 @@
 +++
 title = "Divinition"
 date = 2022-08-22
-description = "Media Transmisi"
 summary = "Divinition berkaitan dengan Law of Attraction, dimana kita mencoba menangkap frekwensi radiasi kita ke dalam media kartu"
 +++
 

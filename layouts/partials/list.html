@@ -1,0 +1,22 @@
+<ul class="note-list">
+    <li class="item">
+
+        <div class="subtitle">
+            <a class="note" href="{{- .RelPermalink -}}">
+                <p class="note-title">{{- .Title | safeHTML -}}</p>
+            </a>
+
+            {{ with .Params.Date.Format "2 Jan '06" }}
+            <span class="note-date">{{- . -}}</span>
+            {{ end }}
+
+        </div>
+
+        <p class="note-content">{{- .Summary | plainify | safeHTML -}}.</p>
+
+        {{ with .Params.range }}
+        <span class="article-date">{{- . -}}</span>
+        {{ end }}
+
+    </li>
+</ul>

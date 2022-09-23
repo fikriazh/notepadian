@@ -1,15 +1,18 @@
 {{- define "main" -}}
-{{- $justify := false -}}
-{{- $date := .Date.Format "2006-01-02" -}}
-{{- $lastmod := .Lastmod.Format "2006-01-02" -}}
-{{- $ageDays := div (sub now.Unix .Lastmod.Unix) 86400 -}}
-{{- if eq .Params.justify true -}} {{- $justify = true -}} {{- end -}}
+
 <div class="article-containter">
-<section class="article-header" {{- if $justify -}}style="text-align: justify;" {{- end -}}>
+<section class="article-header">
 
     <h1>{{- .Title | safeHTML -}}</h1>
-    <span class="markdown-body">{{- .Params.description -}}</span>
-    <p class="article-date">{{- .Date.Format "Friday, 2 January 2006" -}}</p>
+    {{ with .Params.location }}
+    <span class="markdown-body">{{- . -}}</span>
+    {{ end }}
+    {{ with .Params.Date.Format "Friday, 2 January 2006" }}    
+    <p class="article-date">{{- . -}}</p>
+    {{ end }}
+    {{ with .Params.range }}    
+    <p class="article-date">{{- . -}}</p>
+    {{ end }}
     
 </section>
 

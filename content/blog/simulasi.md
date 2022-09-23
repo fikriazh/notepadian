@@ -1,7 +1,6 @@
 +++
 title = "Simulasi"
 date = "2022-03-02"
-description = "Permainan Sang Pencipta"
 summary = "Sang Pencipta semesta sedang duduk mengenakan alat VR-nya dan tersinkron dengan jasad kita, asyik bermain permainan ciptannya"
 +++
 

@@ -12,11 +12,11 @@ keywords = "mahasemesta, blog, semesta, oracle"
 description = "Personal blog about my universe"
 author = "Fikri Azhar Novianto"
 
-[[params.nav.custom]]
+[[params.menu]]
 title = "On Duty"
 url = "/onduty/"
 
-[[params.nav.custom]]
+[[params.menu]]
 title = "About"
 url = "/about/"
 

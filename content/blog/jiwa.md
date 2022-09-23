@@ -1,7 +1,6 @@
 +++
 title = "Jiwa"
 date = 2022-08-18
-description = "Tempatnya Menjelma"
 summary = "Apakah jiwa itu ada? Ataukah itu hanya produk dari consciousness kita yang semakin berkembang pesat"
 +++
 

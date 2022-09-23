@@ -1,6 +1,5 @@
 +++
 date = 2022-09-03T17:00:00Z
-description = "Doa Semesta"
 summary = "Sebuah nama yang kupersembahkan kepada sang buah hati yang kelak akan menjadi pahlawan semesta"
 title = "Mahasemesta"
 +++
