@@ -12,8 +12,6 @@ Banyak hal di alam semesta ini yang masih menjadi misteri, barangkali misteri it
 
 Di blog ini, Saya juga menuangkan beberapa cerita saat on duty di lokasi pengeboran sebagai Drilling Fluid Engineer. Semua catatan on duty ini diharapkan dapat menjadi semacam backup cerita kehidupan selama di lokasi.
 
-In this page, I'll tell you about how this website is working. Including all of the component and system I used to develop the site and all copyright material that may be used.
-
 ### Web Development
 
 Framework

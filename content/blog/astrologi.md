@@ -3,7 +3,6 @@ title = "Astrologi"
 date = 2022-03-03
 description = "Konfigurasi Energi"
 summary = "Sususan planet dan peredarannya memiliki signature energi yang unik pada tiap waktu yang menyiratkan karakter kita"
-tag = "semesta"
 +++
 
 Astrologi merupakan sebuah ilmu kuno yang berasal dari kebudayaan pertama manusia, yaitu Mesopotamia, di saat masih ada Anunnaki. Pada mulanya dulu, ilmu ini digunakan untuk memonitor posisi planet Nibiru, planet asal para Anunnaki, posisi relatif Nibiru terhadap Bumi dan Matahari. Jadi, pada mulanya Astrologi sama saja dengan Astronomi yang dewasa ini kite semua kenal, yang berfungsi hanya untuk memonitor benda-benda angkasa.

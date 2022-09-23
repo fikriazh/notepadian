@@ -3,7 +3,6 @@ title = "Divinition"
 date = 2022-08-22
 description = "Media Transmisi"
 summary = "Divinition berkaitan dengan Law of Attraction, dimana kita mencoba menangkap frekwensi radiasi kita ke dalam media kartu"
-tag = "semesta"
 +++
 
 Salah satu ketertarikan yang diberikan semesta kepadaku pada saat fase perjalanan spiritual adalah di saat beliau memperkenalkan konsep-konsep divinition. Yaitu berbagai media yang digunakan untuk memperkenalkan keterkaitan dimensi tiga dengan dimensi empat. Beberapa di antaranya adalah astrologi dan tarot / oracle. Astrologi telah dibahas pada thread lainnya.

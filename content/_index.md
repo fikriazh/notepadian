@@ -1,5 +1,5 @@
 +++
 title = "Mahasemesta"
-subtitle = "Journal of my Life's Journey"
+subtitle = "Journal of my Journey"
 lottie = "tr1pjkop"
 +++
