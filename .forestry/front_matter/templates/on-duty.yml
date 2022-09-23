@@ -4,13 +4,13 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: location
-  label: location
+  label: Location
 - type: textarea
   name: summary
-  label: summary
+  label: Summary
 - type: text
   name: range
-  label: range
+  label: Date Range
