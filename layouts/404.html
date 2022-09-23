@@ -2,7 +2,7 @@
 <html data-theme="dark">
 <head>
 {{- partial "head.html" . -}}
-<meta http-equiv='refresh' content='4; URL={{- `/` | relURL -}}'>
+<meta http-equiv='refresh' content='5; URL={{- `/` | relURL -}}'>
 
 <style>
   .lost {
@@ -21,9 +21,6 @@
         <section id="content">        
 
           <article class="lost">
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_suhe7qtm.json"  background="transparent"  speed="3"  style="margin: 0 auto; width: 150px; height: auto;"  loop  autoplay></lottie-player>
-
             <h3 id="title">Sorry, we find nothing here</h3>
             We'll back you home
             <p id="timer_div"></p>
@@ -33,7 +30,7 @@
     </div>
 
     <script>
-      var seconds_left = 4;
+      var seconds_left = 5;
       var interval = setInterval(function() {
           document.getElementById('timer_div').innerHTML = --seconds_left;          
       }, 1000);

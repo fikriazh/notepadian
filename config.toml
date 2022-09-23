@@ -1,8 +1,8 @@
 baseURL = "https://semestaku.my.id/"
 title = "Mahasemesta"
 
-[permalinks]
-  'post' = '/:title/'
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm", "robotsTXT"]
+enableEmoji = true
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -19,3 +19,19 @@ url = "/onduty/"
 [[params.nav.custom]]
 title = "About"
 url = "/about/"
+
+[sitemap]
+  changefreq = ''
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[[redirects]]
+    from   = "/**"
+    to     = "/404.html"
+    status = 404
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+noClasses = true
+style = "monokai"
