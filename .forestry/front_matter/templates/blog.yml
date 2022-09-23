@@ -4,10 +4,14 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    export_format: YYYY-MM-DD
+    date_format: DD/MM/YYYY
+    time_format: hh:mm
 - type: textarea
   name: summary
-  label: summary
+  label: Summary
