@@ -1,6 +1,5 @@
 +++
 title = "Mahasemesta"
-author = "Hugo Authors"
+subtitle = "Journal of my Life's Journey"
+lottie = "tr1pjkop"
 +++
-
-Homepage

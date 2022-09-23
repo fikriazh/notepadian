@@ -1,9 +1,7 @@
 {{- define "main" -}}
 {{- $paginator := .Paginator -}}
 
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_icnvjpdc.json"  background="transparent"  speed=".5"  style="margin: -15px auto; width: 150px; height: auto;"  loop  autoplay></lottie-player>
-
+{{ partial "lottie" . }}
 <section class="article-header">
 
     <h1>{{- .Title | safeHTML -}}</h1>
@@ -15,18 +13,16 @@
 <ul class="note-list">
     <li class="item">
 
-        <div>
+        <div class="subtitle">
             <a class="note" href="{{- .RelPermalink -}}">
                 <p class="note-title">{{- .Title | safeHTML -}}</p>
-            </a>            
-            <span class="note-date">{{- .Params.location -}}</span>
+            </a>
+            <span class="note-date">{{- .Date.Format "2 Jan 06" -}}</span>
         </div>
 
         {{- if .Summary -}}
         <p class="note-content">{{- .Summary | plainify | safeHTML -}}</p>
         {{- end -}}
-        
-        <span class="article-date">{{- .Params.range -}}</span>
 
     </li>
 </ul>

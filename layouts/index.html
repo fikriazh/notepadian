@@ -1,9 +1,7 @@
 {{- define "main" -}}
 
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_tr1pjkop.json"  background="transparent"  speed=".5"  style="margin: -15px auto; width: 150px; height: auto;"  loop  autoplay></lottie-player>
-
-<p class="slogan">" . . . merely journal of my weird life . . . "</p>
+{{ partial "lottie" . }}
+<p class="slogan">" . . . {{ .Params.subtitle }} . . . "</p>
 
 {{- range (where .Site.RegularPages "Section" "=" "blog") -}}
 <ul class="note-list">

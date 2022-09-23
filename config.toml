@@ -1,13 +1,6 @@
 baseURL = "https://fikriazh.my.id/"
 title = "Mahasemesta"
 
-enableRobotsTXT = true
-# summaryLength = 10
-paginate = 5
-
-# Google Analytics
-#googleAnalytics = "UA-123-45"
-
 [permalinks]
   'post' = '/:title/'
 
@@ -15,10 +8,11 @@ paginate = 5
 unsafe = true
 
 [params]
-style = "dark"
 keywords = "mahasemesta, blog, semesta, oracle"
 description = "Personal blog about my universe"
 author = "Fikri Azhar Novianto"
+
+stylesheets = ["critical-styles.css", "font.css", "style.css"]
 
 [params.assets]
 css = ["css/fonts.css"]
