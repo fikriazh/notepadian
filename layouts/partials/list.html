@@ -12,7 +12,7 @@
 
         </div>
 
-        <p class="note-content">{{- .Summary | plainify | safeHTML -}}.</p>
+        <p class="note-content">{{- .Content | plainify | safeHTML | truncate 130 -}}</p>
 
         {{ with .Params.range }}
         <span class="article-date">{{- . -}}</span>

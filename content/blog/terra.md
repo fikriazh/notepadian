@@ -1,6 +1,5 @@
 +++
 date = 2022-09-23T00:00:00Z
-summary = "It is told since the beginning of the making of the universe by the supreme creator, then the system orchestrate to build living matter, until the dawn of sapiens, us"
 title = "Terra Papers"
 draft = true
 +++

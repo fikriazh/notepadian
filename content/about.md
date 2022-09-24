@@ -1,5 +1,5 @@
 +++
-title = "Sekilas Langkah"
+title = "Sejejak Langkah"
 layout = "page"
 lottie = "r1gncjwd"
 +++

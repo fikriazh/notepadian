@@ -51,7 +51,6 @@ table {
   font-size: 0.8rem;
 }
 
-.markdown-body blockquote,
 .markdown-body details,
 .markdown-body dl,
 .markdown-body ol,
@@ -82,38 +81,9 @@ table {
   border-bottom: 1px solid #eaecef;
 }
 
-.markdown-body blockquote,
 .markdown-body q {
   font-size: 15px;
   color: var(--title-color);
-}
-
-.markdown-body blockquote {
-  position: relative;
-  padding: .95em;
-  border-radius: 6px;
-  border-left: var(--blockquote-border-left);
-  background-color: var(--block-background-color);
-}
-
-.markdown-body blockquote:before,
-.markdown-body blockquote:after,
-.markdown-body q:before,
-.markdown-body q:after {
-  color: #c6c6cc;
-}
-
-.markdown-body q:after {
-  content: "❞";
-}
-
-.markdown-body blockquote:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 1;
 }
 
 .markdown-body ol,
@@ -141,14 +111,6 @@ table {
 
 .markdown-body li> :last-child {
   margin-bottom: 0 !important;
-}
-
-.markdown-body blockquote> :first-child {
-  margin-top: 0;
-}
-
-.markdown-body blockquote> :last-child {
-  margin-bottom: 0;
 }
 
 .markdown-body hr {

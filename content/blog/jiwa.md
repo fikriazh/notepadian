@@ -1,7 +1,6 @@
 +++
 title = "Jiwa"
 date = 2022-08-18
-summary = "Apakah jiwa itu ada? Ataukah itu hanya produk dari consciousness kita yang semakin berkembang pesat"
 +++
 
 Konsep tentang jiwa memang masih menjadi pertimbangan yang serius kufikirkan. Ada atau tidak, memanglah sampai saat ini masih selalu diberikan petunjuk mengenai esensi dari semua ini. Di satu sisi, jika ditilik dari segi keilmuan, jiwa, entahpun itu ada atau tidak, dia harus mentaati hukum fisik ini. Dia harus menjelma kepada makhluk dimensi tiga ini, masuk ke relung sel setiap makhluk hidup. Keberadaannya di dimensi empat memanglah bisa bergerak sangat bebas karena esensinya jiwa adalah cahaya murni.
