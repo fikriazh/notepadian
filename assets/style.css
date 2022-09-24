@@ -271,3 +271,38 @@ nav ul li a:focus {
 iframe {
   border-radius: 10px;
 }
+
+.markdown-body details {
+  text-align: center;
+}
+
+/* details tag */
+details > summary {
+  list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details {
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+
+}
+
+details[open] > summary {
+  margin-bottom: 0.5rem;
+}
+
+abbr[title] {
+text-decoration: none;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
