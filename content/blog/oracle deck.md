@@ -9,10 +9,10 @@ Mahasemesta telah merampungkan sebuah karya berupa oracle deck dengan nama Mahas
 
 Karya ini dibuat berdasarkan energi yang saya dapat melalui berbagai macam interaksi dengan semesta dan kemudian energi abstrak tersebut saya tuangkan menjadi berbagai point-point fase kehidupan. Ilustrasi dari deck ini dibuat oleh program AI yang bernama MindJourney. Deck ini terdiri dari 63 kartu oracle dengan style dreamy yang sangat imajinatif dan memberikan kesan abstrak, sehingga dapat membiarkan para penggunanya untuk menguatkan intuisi, tanpa harus terpaku dengan teks yang diberikan. Adapun teks yang diberikan hanyalah sebagai gamabaran umum dan hanya sekeda saran. Hasil pembacaan wajib menyesuaikan intuisi si pembacanya.
 
-Berikut adalah deskripsi dasar yang saya buat sebagai panduan :
+Berikut adalah deskripsi dasar yang saya buat sebagai panduan, *klik untuk membuka* :
 
 <details>
-<summary><abbr title="Klik untuk melihat semua daftar oracle card">Oracle Card</abbr></summary>
+<summary><abbr title="Klik untuk melihat semua daftar oracle card">❛ Oracle Card ❜</abbr></summary>
 
 ## Cabin in the Wood
 {{< figure src="/img/oracle/1 Cabin.png" >}}

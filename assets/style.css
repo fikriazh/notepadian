@@ -51,6 +51,7 @@ table {
   font-size: 0.8rem;
 }
 
+.markdown-body blockquote,
 .markdown-body details,
 .markdown-body dl,
 .markdown-body ol,
@@ -81,9 +82,38 @@ table {
   border-bottom: 1px solid #eaecef;
 }
 
+.markdown-body blockquote,
 .markdown-body q {
   font-size: 15px;
   color: var(--title-color);
+}
+
+.markdown-body blockquote {
+  position: relative;
+  padding: .95em;
+  border-radius: 6px;
+  border-left: var(--blockquote-border-left);
+  background-color: var(--block-background-color);
+}
+
+.markdown-body blockquote:before,
+.markdown-body blockquote:after,
+.markdown-body q:before,
+.markdown-body q:after {
+  color: #c6c6cc;
+}
+
+.markdown-body q:after {
+  content: "❞";
+}
+
+.markdown-body blockquote:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1;
 }
 
 .markdown-body ol,
@@ -121,9 +151,14 @@ table {
 }
 
 .markdown-body table {
-  display: block;
   width: 100%;
   overflow: auto;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.markdown-body thead {
+  font-size: larger;
 }
 
 .markdown-body table tr {
@@ -299,10 +334,19 @@ details[open] > summary {
 
 abbr[title] {
 text-decoration: none;
+border-bottom: .5px dotted #dadada;
 }
 
 hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+#ig {
+  display: inline-block;
+  margin:0;
+  width: 16px;
+  text-align: center;
+  margin-bottom: -7px;
 }

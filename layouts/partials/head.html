@@ -1,8 +1,23 @@
 <meta charset="utf-8">
+{{- hugo.Generator -}}
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark">
+
+<meta name="keywords" content={{ .Site.Params.keywords }}>
+<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Content | truncate 100 }}{{ end }}">
+<meta name="author" content={{ .Site.Params.author }}>
+<meta name="copyright"content={{ .Site.Params.author }}>
+<meta http-equiv="content-language" content="en,id">
+<link rel="canonical" href="{{ .Permalink }}">
+
 <link rel="icon" href="/favicon.ico">
-<title>{{ .Title }}</title>
+<title>
+    {{- if .IsHome -}}
+    {{- .Title -}}
+    {{- else -}}
+    {{- .Title | safeHTML }} - {{ .Site.Title }}
+    {{- end -}}    
+</title>
 
 {{ $css := resources.Match "**.css" | resources.Concat "mains.css" }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" media="all">

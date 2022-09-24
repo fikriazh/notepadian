@@ -1,14 +1,14 @@
 baseURL = "https://semestaku.my.id/"
 title = "Mahasemesta"
 
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm", "robotsTXT"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
 
 [markup.goldmark.renderer]
 unsafe = true
 
 [params]
-keywords = "mahasemesta, blog, semesta, oracle"
+keywords = "mahasemesta, semesta, oracle, spiritual"
 description = "Personal blog about my universe"
 author = "Fikri Azhar Novianto"
 

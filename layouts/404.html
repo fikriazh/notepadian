@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html data-theme="dark">
-<head>
+
 {{- partial "head.html" . -}}
-<meta http-equiv='refresh' content='5; URL={{- `/` | relURL -}}'>
 
 <style>
   .lost {
     text-align: center;
     margin: 30vh auto;
   }
-  #timer_div {
-    font-size:xx-large;
+
+  .lost-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 </style>
 
@@ -21,20 +24,19 @@
         <section id="content">        
 
           <article class="lost">
-            <h3 id="title">Sorry, we find nothing here</h3>
-            We'll back you home
-            <p id="timer_div"></p>
+            {{ partial "lottie" . }}
+            <h3>Page Not Found</h3>            
+            <p>Consider visit these page :</p>
+            <p class="lost-link">
+              <a href="/">Home</a>
+              <a href="/blog">Blog</a>
+              <a href="/onduty">Onduty</a>
+              <a href="/about">About</a>
+            </p>
           </article>
 
         </section>
     </div>
-
-    <script>
-      var seconds_left = 5;
-      var interval = setInterval(function() {
-          document.getElementById('timer_div').innerHTML = --seconds_left;          
-      }, 1000);
-    </script>
 
 </body>
 
