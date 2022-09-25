@@ -3,6 +3,8 @@ title = "Mahasemesta"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableEmoji = true
+enableRobotsTXT = true
+disqusShortname = 'semestaku-my-id'
 
 [markup.goldmark.renderer]
 unsafe = true
