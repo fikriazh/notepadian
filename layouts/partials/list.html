@@ -2,12 +2,13 @@
     <li class="item">
 
         <div class="subtitle">
+            
             <a class="note" href="{{- .RelPermalink -}}">
-                <p class="note-title">{{- .Title | safeHTML -}}</p>
+                <h1 class="note-title">{{- .Title | safeHTML -}}</h1>
             </a>
 
             {{ with .Params.Date.Format "2 Jan '06" }}
-            <span class="note-date">{{- . -}}</span>
+            <date class="note-date">{{- . -}}</date>
             {{ end }}
 
         </div>
