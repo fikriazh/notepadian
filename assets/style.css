@@ -351,6 +351,6 @@ hr {
   margin-bottom: -7px;
 }
 
-#disqus_thread {
-  margin:15px 0;
+.article-discussion {
+  margin: 20px 0;
 }
