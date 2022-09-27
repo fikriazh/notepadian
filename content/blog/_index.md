@@ -1,6 +1,6 @@
 +++
 title = "Blog"
-lottie = "icnvjpdc"
+lottie = "blog"
 +++
 
 Pieces of Semesta's clues given to me
