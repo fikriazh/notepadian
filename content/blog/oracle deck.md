@@ -12,7 +12,7 @@ Karya ini dibuat berdasarkan energi yang saya dapat melalui berbagai macam inter
 Berikut adalah deskripsi dasar yang saya buat sebagai panduan, *klik untuk membuka* :
 
 <details>
-<summary><abbr title="Klik untuk melihat semua daftar oracle card">❛ Oracle Card ❜</abbr></summary>
+<summary><abbr id="oracle" title="Klik untuk melihat semua daftar oracle card">< Oracle Card ></abbr></summary>
 
 ## Cabin in the Wood
 {{< figure src="/img/oracle/1 Cabin.png" >}}

@@ -4,14 +4,18 @@
         <a href="{{- `/` | relURL -}}">        
             <p class="site-name">{{- .Site.Title -}}</p>
         </a>
-    </div>
+    </div>    
 
     <div class="header-right">
-        <div class="nav">
+        &nbsp;&nbsp;&nbsp;
+        <details>
+            <summary>⚘ </summary>
+            <nav>
             {{- range .Site.Params.menu -}}
                 <a class="nav-item" href="{{- .url -}}">{{- .title -}}</a>
             {{- end -}}
-        </div>
+            </nav>
+        </details>
     </div>
-    
+
 </section>

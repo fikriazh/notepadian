@@ -324,8 +324,6 @@ details {
   border: 1px solid gray;
   border-radius: 0.2rem;
   padding: 0.5rem;
-  cursor: pointer;
-
 }
 
 details[open] > summary {
@@ -335,6 +333,7 @@ details[open] > summary {
 abbr[title] {
 text-decoration: none;
 border-bottom: .5px dotted #dadada;
+cursor: pointer;
 }
 
 hr {
@@ -353,4 +352,52 @@ hr {
 
 .article-discussion {
   margin: 20px 0;
+}
+
+.link {
+  text-decoration: underline;
+  text-decoration-thickness: 0.15rem;
+    text-decoration-color: var(--link-underline);
+}
+
+/* Menu */
+.header-right {
+  position: relative;
+}
+
+div.header-right details {
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  left: -93px;
+  top: -8px;
+  border: none;
+}
+
+div.header-right details[open] {
+  background-color: #2e3239;
+  opacity: .95;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  padding-right: 15px;
+}
+
+div.header-right details > summary {
+  width:100px;
+  cursor: pointer;
+  color: var(--color-primary);
+  font-size: larger;
+
+  text-decoration: none;
+}
+
+div.header-right details > summary::after {
+  content: "Menu";
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-decoration-thickness: 0.15rem;
+}
+
+nav > a.nav-item {
+  margin: 0px;
 }

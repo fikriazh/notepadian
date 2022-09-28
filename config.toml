@@ -15,6 +15,10 @@ description = "Personal blog about my universe"
 author = "Fikri Azhar Novianto"
 
 [[params.menu]]
+title = "Blog"
+url = "/blog/"
+
+[[params.menu]]
 title = "On Duty"
 url = "/onduty/"
 
