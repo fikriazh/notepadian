@@ -1,7 +1,5 @@
 {{- define "main" -}}
 
-{{ partial "lottie" . }}
-
 <p class="slogan">" . . . {{ .Params.subtitle }} . . . "</p>
 
 {{- range (where .Site.RegularPages "Section" "=" "blog") -}}

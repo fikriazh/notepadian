@@ -213,10 +213,10 @@ table {
 }
 
 .article-navigation {
-  margin-top: 25px;
+  margin-top: 20px;
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
 }
 
@@ -375,8 +375,9 @@ div.header-right details {
 }
 
 div.header-right details[open] {
+  z-index: 999;
   background-color: #2e3239;
-  opacity: .95;
+  opacity: .9;
   border-radius: 10px;
   padding-bottom: 25px;
   padding-right: 15px;
@@ -387,10 +388,6 @@ div.header-right details > summary {
   cursor: pointer;
   color: var(--color-primary);
   font-size:larger;
-}
-
-div.header-right details > summary:hover {
-  color: #c7254e;
 }
 
 nav > a.nav-item {
@@ -409,47 +406,20 @@ span.site-name {
   color:var(--body-color);
 }
 
-div > a.site-name:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--link-underline);
-  text-decoration-thickness: 0.15rem;
-  transition: 1s;
+.prev {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.waving:before {
-  content: attr(data-hover);
-  }
-  
-  .waving:hover {
-  animation-name: wave-animation;
-  animation-duration: 3.0s;
-  animation-iteration-count:infinite;
-  transform-origin: 70% 70%;
-  }
-  
-  @keyframes wave-animation {
-  0% {
-  transform: rotate( 0.0deg)
-  }
-  10% {
-  transform: rotate(14.0deg)
-  }
-  20% {
-  transform: rotate(-8.0deg)
-  }
-  30% {
-  transform: rotate(14.0deg)
-  }
-  40% {
-  transform: rotate(-4.0deg)
-  }
-  50% {
-  transform: rotate(10.0deg)
-  }
-  60% {
-  transform: rotate( 0.0deg)
-  }
-  100% {
-  transform: rotate( 0.0deg)
-  }
-  }
+.next {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+div.prev > p, div.next > p {
+  margin: -8px 0;
+  font-size: smaller;
+  color: var(--color-primary)
+}

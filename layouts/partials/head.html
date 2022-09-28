@@ -22,5 +22,8 @@
     {{- end -}}    
 </title>
 
-{{ $css := resources.Match "**.css" | resources.Concat "mains.css" }}
+{{ $css := resources.Match "**.css" | resources.Concat "main.css" }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" media="all">
+
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>

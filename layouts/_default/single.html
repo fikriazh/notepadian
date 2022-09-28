@@ -24,19 +24,26 @@
 <hr>
 
 {{- if or .PrevInSection .NextInSection -}}
-<section class="article-navigation">
+<section {{ if not .NextInSection }}style="justify-content:flex-end"{{ end }} class="article-navigation">
 
     {{- with .NextInSection -}}
-    <a href="{{- .RelPermalink -}}" style="text-decoration:none;">
-        <span>« </span>
-        <span class="link">{{- .Title | safeHTML -}}</span>
-    </a>
+    <div class="prev">
+        <p>Newer</p>
+        <a href="{{- .RelPermalink -}}" style="text-decoration:none;">
+            <span>« </span>
+            <span class="link">{{- .Title | safeHTML -}}</span>
+        </a>
+    </div>
     {{- end -}}
 
     {{- with .PrevInSection -}}
-    <a href="{{- .RelPermalink -}}" style="text-decoration:none;">
-        <span class="link">{{- .Title | safeHTML -}}</span>
-        <span> »</span></a class="link">
+    <div class="next">
+        <p>Older</p>
+        <a href="{{- .RelPermalink -}}" style="text-decoration:none;">
+            <span class="link">{{- .Title | safeHTML -}}</span>
+            <span> »</span>
+        </a class="link">
+    </div>
     {{- end -}}
 
 </section>

@@ -1,7 +1,6 @@
 +++
 title = "Mahasemesta"
 subtitle = "Journal of my Journey"
-lottie = "cat"
 +++
 
 Code Highlight Cheatsheet

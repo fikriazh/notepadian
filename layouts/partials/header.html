@@ -1,7 +1,7 @@
 <section id="header" class="header">
 
     <div class="header-left">
-        <span class="site-name waving">🔥 </span>
+        <span class="site-name">🔥 </span>
         <a class="site-name" href="{{- `/` | relURL -}}">        
             {{ .Site.Title -}}
         </a>
@@ -10,7 +10,7 @@
     <div class="header-right">
         &nbsp;&nbsp;&nbsp;
         <details>
-            <summary class="waving">📑</summary>
+            <summary>📑</summary>
             <nav>
             {{- range .Site.Params.menu -}}
                 <a class="nav-item" href="{{- .url -}}">{{- .title -}}</a>{{- .ico -}}

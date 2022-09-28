@@ -207,7 +207,7 @@ html[data-theme='dark'] .dark-hidden{
 
 .footer {
     font-size: 13px;
-    margin: 15px 0;
+    margin: 25px 0;
 }
 
 .footer-wrap {
@@ -278,6 +278,7 @@ ul.archive-list li {
 .markdown-body p {
     margin: 15px 0;
     text-align: justify;
+    text-indent: 35px;
 }
 
 .pagination {

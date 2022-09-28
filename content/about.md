@@ -1,7 +1,6 @@
 +++
 title = "Sejejak Langkah"
 layout = "page"
-lottie = "relax"
 +++
 
 Mahasemesta adalah sebuah wadah bagi saya untuk menuliskan semua unek-unek tentang alam semesta ini, didapat secara subjektif dari proses perjalanan kehidupan. Semua artikel dan produk di blog ini sangat subjektif dan merupakan suatu hal yang tidak boleh dijadikan sebagai acuan apapun.
