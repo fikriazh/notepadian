@@ -386,18 +386,70 @@ div.header-right details > summary {
   width:100px;
   cursor: pointer;
   color: var(--color-primary);
-  font-size: larger;
-
-  text-decoration: none;
+  font-size:larger;
 }
 
-div.header-right details > summary::after {
-  content: "Menu";
-  text-decoration: underline;
-  text-decoration-color: var(--link-underline);
-  text-decoration-thickness: 0.15rem;
+div.header-right details > summary:hover {
+  color: #c7254e;
 }
 
 nav > a.nav-item {
   margin: 0px;
 }
+
+span.site-name {
+  text-decoration: none;
+}
+
+.footer-wrap > a {
+  text-decoration: none;
+}
+
+.site {
+  color:var(--body-color);
+}
+
+div > a.site-name:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-decoration-thickness: 0.15rem;
+  transition: 1s;
+}
+
+.waving:before {
+  content: attr(data-hover);
+  }
+  
+  .waving:hover {
+  animation-name: wave-animation;
+  animation-duration: 3.0s;
+  animation-iteration-count:infinite;
+  transform-origin: 70% 70%;
+  }
+  
+  @keyframes wave-animation {
+  0% {
+  transform: rotate( 0.0deg)
+  }
+  10% {
+  transform: rotate(14.0deg)
+  }
+  20% {
+  transform: rotate(-8.0deg)
+  }
+  30% {
+  transform: rotate(14.0deg)
+  }
+  40% {
+  transform: rotate(-4.0deg)
+  }
+  50% {
+  transform: rotate(10.0deg)
+  }
+  60% {
+  transform: rotate( 0.0deg)
+  }
+  100% {
+  transform: rotate( 0.0deg)
+  }
+  }

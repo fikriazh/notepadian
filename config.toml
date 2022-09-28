@@ -17,14 +17,17 @@ author = "Fikri Azhar Novianto"
 [[params.menu]]
 title = "Blog"
 url = "/blog/"
+ico = "📖"
 
 [[params.menu]]
 title = "On Duty"
 url = "/onduty/"
+ico = "⚒"
 
 [[params.menu]]
 title = "About"
 url = "/about/"
+ico = "🙊"
 
 [sitemap]
   changefreq = ''

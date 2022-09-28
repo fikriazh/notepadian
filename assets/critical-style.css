@@ -113,10 +113,8 @@ a:hover {
     display: inline-block;
     font-weight: 600;
     font-size: larger ;
+    text-decoration: none;
 
-    text-decoration: underline;
-    text-decoration-color: var(--link-underline);
-    text-decoration-thickness: 0.15rem;
 }
 
 .site-logo {
@@ -209,7 +207,7 @@ html[data-theme='dark'] .dark-hidden{
 
 .footer {
     font-size: 13px;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .footer-wrap {
